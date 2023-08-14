@@ -1,0 +1,119 @@
+.home-container{
+    margin-top: 3%;
+    color:#E30B5C;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+}
+.thumbnail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #A9A9A9;
+  }
+  
+  .thumbnail img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    object-fit: cover;
+  }
+.buttons{
+    margin-top: 7%;
+}  
+.buy-btn{
+   outline: none;
+   border: none;
+   border-radius: 20px;
+   background-color: #E30B5C; 
+   color:#fff;
+   height: 30px;
+   width: 100px;
+   padding: 2px;
+
+}
+.play-btn{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff; 
+    color:#000;
+    height: 30px;
+    width: 200px;
+    padding: 2px;
+ 
+ }
+ .services {
+    margin-top: 10%;
+    display: flex;
+    margin: 0 15%;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FFFFF0;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); 
+  }
+  
+.services p{
+    color: #A9A9A9; 
+    align-items: center;  
+    width: 50%;
+}
+.icons{
+
+   color:#333; 
+   margin-top: 3%;
+   color: #F4BB44;
+   font-size: 24px;
+   border-radius: 5px;
+   
+}
+
+@media (max-width: 768px) {
+    .home-container {
+      margin-top: 5%;
+      padding: 10px;
+    }
+  
+    .home-container h4 {
+      font-size: 30px;
+    }
+    .home-img img{
+    display: none;
+    }
+  
+    .thumbnail img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .thumbnail p {
+      font-size: 14px;
+    }
+  
+    .buy-btn,
+    .play-btn {
+      width: auto;
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  
+    .services {
+      margin: 5% 5%;
+      padding: 10px;
+    }
+  
+    .services p {
+      font-size: 14px;
+    }
+  
+    .icons {
+      font-size: 20px;
+    }
+  
+
+  }
+  

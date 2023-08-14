@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-bottom: 4%;  
+}
+.header p{
+    color: #A9A9A9; 
+}
+h6{
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;     
+}
+
+.categories img{
+    width: 25vw;
+}
+.order{
+   padding: 5px;
+   outline: none;
+   border: none;
+   color: #E30B5C;
+   font-size: 18px;
+   width: 100%;
+
+}
+.burger-circle{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50% 30%;
+    background-color: #AFE1AF; 
+    justify-content: center;
+    align-items: center;
+   
+}
+.burger img{
+    height: 25vh;
+    width: 25vw;
+    margin-top: -20%;
+    margin-left: -80%;
+    
+}
+.pizza-circle{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50% 30%;
+    background-color:#E3963E; 
+    justify-content: center;
+    align-items: center;  
+}
+.pizza img{
+    margin-top: -70%;
+    margin-left: -60%; 
+}
+.fries-circle{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50% 30%;
+    background-color:#DA70D6; 
+    justify-content: center;
+    align-items: center;    
+}
+.fries img{
+    margin-top: -40%;
+    margin-left: -60%;  
+}
